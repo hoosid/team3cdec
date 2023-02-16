@@ -18,13 +18,18 @@ body
     width: 100%;
     display: flex;
     flex-direction: column;
-     
+    background-image: url('chandler-cruttenden-bRDx9TXCaOo-unsplash.jpg');
+    background-size: 900px;
 
 }
 
  
 .main
-{
+{   
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 95%;
+    background-color: white;
     height: 15%;
     display: flex;
      flex-direction: row;
@@ -41,27 +46,27 @@ body
     justify-content: space-around;
     align-items: center;
     width: 40%;
-   
+    font-family: fantasy;
+    text-transform: uppercase;
+    
 }
 
 .list a
 {
     text-decoration: none;
+
+}
+#liw{
+    color: black;
 }
 
-.h-1
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: italic;
-    padding-left: 2%;
+
+.image{
+   margin-top: 7px;
+    float: left;
+    margin-left: 15px;
 }
 
-.main h1
-{
-    color:  rgb(8, 94, 8);
-}
 
 .main p
 {
@@ -85,12 +90,21 @@ body
     flex-direction: column;
     align-items: center;
   justify-content: center;
-}
+  font-family: fantasy; 
 
+ 
+}
+.outline{
+    color: red;
+    background-color: white;
+    outline: solid 7px red;
+    padding: 10px;
+    font: inherit;
+    font-size: 50px;
+}
 .main-page b
 {
     font-size: 40px;
-    color: rgb(8, 94, 8);
     letter-spacing: 5px;
     
 }
