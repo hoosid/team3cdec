@@ -2,13 +2,25 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body
 {
-    background: rgba(167, 166, 166, 0.418) url()   repeat ;
+     background: rgba(167, 166, 166, 0.418)  ; 
 }
-
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb{
+    background-color: brown;
+}
 
 /* 1 */
  
@@ -29,36 +41,49 @@ body
     margin-top: 25px;
     margin-left: 15px;
     width: 95%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.712);
     height: 15%;
     display: flex;
      flex-direction: row;
      justify-content: space-between;
+     box-shadow: 2px 2px 10px 5px rgb(194, 193, 193) ;
       
 }
  
 
 
-.list
+.nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+   
     align-items: center;
     width: 40%;
     font-family: fantasy;
     text-transform: uppercase;
-    
+  
 }
 
-.list a
+.nav a
 {
     text-decoration: none;
 
 }
-#liw{
-    color: black;
-}
+  ul.nav > li {
+    display: inline-block;
+    padding: 10px 40px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+  }
+
+  ul.nav > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
 
 
 .image{
@@ -68,7 +93,7 @@ body
 }
 
 
-.main p
+.main a
 {
     font-size: x-large;
     color: white;
@@ -76,9 +101,9 @@ body
 
 
  
-.main p:hover
+ul li a:hover
 {
-    color: rgb(8, 94, 8);
+    color: red;
     transition: 0.4s ease;
 }
   
@@ -173,7 +198,7 @@ body
     display: flex;
     flex-direction: column;
   
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.726);
     border-radius: 10px;
     box-shadow: 2px 2px 10px 5px rgb(194, 193, 193) ;
     cursor: pointer;
@@ -193,7 +218,7 @@ body
  display: flex;
  justify-content: center;
  align-items: center;
-
+ border-radius: 15px;
 }
 
 .img-0 img
@@ -211,6 +236,10 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: large;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 /* 3 */
@@ -232,6 +261,7 @@ body
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -277,7 +307,8 @@ body
     width: 100%;
     justify-content: center;
     align-items: center;
-   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
    
 }
 
@@ -335,6 +366,11 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
      
 }
 
@@ -352,6 +388,7 @@ h2{
      align-items: center;
      justify-content: center;
      height: 100vh;
+     background-color: rgba(255, 255, 255, 0.722);
    
 
 }
@@ -376,8 +413,17 @@ h2{
     justify-content: start;
    
 }
-
-.ip-1
+.video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+  }
+/* .ip-1
 {
     padding: 10px 20px;
      text-align: center;
@@ -393,7 +439,7 @@ h2{
 {
     transform: scale(1.1);
     transition: 0.7s ease;
-    background-color:  rgb(8, 94, 8);
+    background-color:  rgb(184, 4, 255);
     color: white;
 }
 
@@ -414,7 +460,7 @@ h2{
 {
     transform: scale(1.1);
     transition: 0.7s ease;
-    background-color:  rgb(8, 94, 8);
+    background-color:  rgb(184, 4, 255);
     color: white;
 }
 
@@ -432,10 +478,66 @@ h2{
 {
     transform: scale(1.1);
     transition: 0.7s ease;
-    background-color:  rgb(8, 94, 8);
+    background-color:  rgb(184, 4, 255);
     color: white;
-}
+} */
 
+
+.donate{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid rgb(124, 85, 85);
+    width: 50%;
+    border-radius: 3px;
+    animation: x 3s infinite;
+    
+}
+@keyframes x{
+    0%{color: red;}
+    50%{color: blue;}
+    100%{color: green;}
+}
+h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.4s ease;
+  }
+   input:hover{
+    background-color: #666;
+    transform: calc(1.1);
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #666;
+    cursor: pointer;
+  }
+.btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 footer
 {
     height: 10vh;
@@ -444,8 +546,17 @@ footer
     display: flex;
     align-items: center;
 }
-
 span
 {
     color: rgb(8, 94, 8);
+}
+.reveal{
+    position: relative;
+    transform: ranslateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
 }
