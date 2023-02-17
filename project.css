@@ -480,15 +480,16 @@ h2 {
     align-items: center;
 }
 .retour{
-    background-color: red;
+    background-color: rgba(187, 13, 1, 0.788);
     height: 20px;
     width: 20%;
     
 }
 .retour a{
-    color: red;
+    color: rgba(0, 0, 0, 0.712);
     text-decoration: none;
     transition: 0.4s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 footer
 {
