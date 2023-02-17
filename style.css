@@ -423,65 +423,6 @@ h2{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     
   }
-/* .ip-1
-{
-    padding: 10px 20px;
-     text-align: center;
-     width: 30%;
-     cursor: pointer;
-     border: none;
-     border-radius: 10px;
-     margin-top: 3%;
-     background-color: rgb(187, 186, 186);
-     
-}
-.ip-1:hover
-{
-    transform: scale(1.1);
-    transition: 0.7s ease;
-    background-color:  rgb(184, 4, 255);
-    color: white;
-}
-
-.ip-3
-{
-    padding: 10px 20px;
-    text-align: center;
-    width: 30%;
- height: 20%;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    margin-top: 3%;
-    background-color: rgb(187, 186, 186);
-}
-
-.ip-3:hover
-{
-    transform: scale(1.1);
-    transition: 0.7s ease;
-    background-color:  rgb(184, 4, 255);
-    color: white;
-}
-
-.main-5 button
-{
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    margin-top: 3%;
-    background-color: rgb(187, 186, 186);
-}
-
-.main-5 button:hover
-{
-    transform: scale(1.1);
-    transition: 0.7s ease;
-    background-color:  rgb(184, 4, 255);
-    color: white;
-} */
-
 
 .donate{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -538,6 +479,17 @@ h2 {
     display: flex;
     align-items: center;
 }
+.retour{
+    background-color: red;
+    height: 20px;
+    width: 20%;
+    
+}
+.retour a{
+    color: red;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
 footer
 {
     height: 10vh;
@@ -550,6 +502,8 @@ span
 {
     color: rgb(8, 94, 8);
 }
+
+/* pour js */
 .reveal{
     position: relative;
     transform: ranslateY(150px);
