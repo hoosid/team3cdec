@@ -520,8 +520,8 @@ span
     opacity: 70%;
     height: 400px;
     width: 1500px;
-     margin: 0 auto; /* set left and right margin to auto */
-     text-align: center; /* horizontally center the content inside the div */
+     margin: 0 auto; 
+     text-align: center; 
     margin-top: 120px;
     margin-right: 150px;
     justify-content: center;
