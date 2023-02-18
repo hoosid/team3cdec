@@ -515,7 +515,6 @@ span
     transform: translateY(0px);
     opacity: 1;
 }
-/*page home*/
 .article{
     background-color: #fff;
     opacity: 70%;
@@ -536,18 +535,16 @@ span
     font-size: 200%;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-.nav2
-{
-    display: flex;
-    flex-direction: row;
-   
-    align-items: center;
-    width: 40%;
-    font-family: fantasy;
-    text-transform: uppercase;
-  
-}
 
+.navv{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 260%;
+    text-transform: uppercase;
+    font-family: fantasy;
+    margin-top: 5px;
+}
 .nav2 a
 {
     text-decoration: none;
