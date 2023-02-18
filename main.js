@@ -14,6 +14,15 @@ function reveal(){
 	}
 }
 
+const myButton = document.getElementById('myButton');
+
+
+myButton.addEventListener('click', function() {
+
+  alert('Thanks for donnation');
+});
+
+
 console.log("%cCDEC %c3ALAMI","color:red;font-size:30px","color:blue;font-size:30px")
 
 
